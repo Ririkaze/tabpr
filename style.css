@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 .frame {
-    margin: 25px 39px 25px 32px;
+    margin: 25px 2% 25px 2%;
     padding: 20px 2% 50px 2%;
     background-color: #0C4D78;
     border-radius: 30px;
@@ -25,31 +25,69 @@ body {
 .logo p{
     margin-left: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .tab {
-    margin-top: 60px;
     display: flex;
     justify-content: center;
-}
-hr {
-    margin: 0 5%;
-    border: 1px solid #378BC1;
-    margin-top: 25px;
-    margin-bottom: 0;
+    margin: 100px 2% auto;
 }
 h1 {
     color: white;
     font-size: 35px;
 }
 .tab p {
+    text-align: start;
     font-size: 20px;
     color: white;
-    margin: 24px 0;
+    height: 100%;
+    margin: 0;
+
 }
-.name, .message p {
-    font-weight: bold;
+th {
+    padding: 0;
+    text-align: start;
 }
 h2 {
+    margin-top: -15px;
+    margin-bottom: 0px;
+    padding: 0px 50px;
     font-size: 25px;
     color: #1C9FF2;
-    margin-bottom: -8px;
+}
+table, th, td{
+    border-collapse: collapse;
+    border: hidden;
+}
+th, td{
+    padding: 10px 0;
+    border-left: 2px solid #378BC1;
+    border-right: 2px solid #378BC1;
+    border-top: hidden;
+    border-bottom: hidden;
+}
+.hov {
+    padding: 4px 50px;
+}
+
+.pd_left {
+    padding-left: 10px;
+}
+.pd_right {
+    padding-right: 10px;
+}
+tr:hover .hov{
+    background-color: #4383AC;
 }

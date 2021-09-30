@@ -11,16 +11,15 @@ body {
 }
 .head {
     display: flex;
-}
-.journal {
-    margin-left: 46%;
-    margin-top: -45px;
+    justify-content: space-between;
+    margin-right: 50%;
 }
 .logo {
     display: flex;
-    justify-content: center;
     align-items: center;
     color: #4383AC;
+    font-weight: bold;
+    font-size: 28px;
 }
 .logo p{
     margin-left: 10px;
@@ -46,15 +45,7 @@ body {
 }
 h1 {
     color: white;
-    font-size: 35px;
-}
-.tab p {
-    text-align: start;
-    font-size: 20px;
-    color: white;
-    height: 100%;
-    margin: 0;
-
+    font-size: 40px;
 }
 th {
     padding: 0;
@@ -64,8 +55,16 @@ h2 {
     margin-top: -15px;
     margin-bottom: 0px;
     padding: 0px 50px;
-    font-size: 25px;
+    font-size: 28px;
     color: #1C9FF2;
+    font-weight: bold;
+}
+.btn {
+    margin-bottom: 0px;
+    font-size: 28px;
+    color: #1C9FF2;
+    background: none;
+    border: none;
 }
 table, th, td{
     border-collapse: collapse;
@@ -80,8 +79,17 @@ th, td{
 }
 .hov {
     padding: 4px 50px;
+    display: flex;
+    align-items: center;
+    text-align: start;
+    font-size: 22px;
+    color: white;
+    height: 100%;
+    margin: 0;
 }
-
+h2 img {
+    margin-left: 10px;
+}
 .pd_left {
     padding-left: 10px;
 }
@@ -90,4 +98,75 @@ th, td{
 }
 tr:hover .hov{
     background-color: #4383AC;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.calendar {
+    display: none;
+    background: radial-gradient(94.19% 126.83% at 6.2% 5.81%, #006CB5 0%, #004675 27.08%, #001B2D 85.94%);
+    border-radius: 10px;
+    padding: 15px 20px;
+    position: absolute;
+    margin: 20px 50px;
+}
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.top button {
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    border: 2px solid #47799A;
+    padding: 8px 14px;
+    margin: 5px;
+}
+.calendar_tab {
+    color: #FFFFFF;
+    border: hidden;
+    font-size: 14px;
+    margin: 0 20px;
+}
+.calendar_tab, .g {
+    border: hidden;
+    font-weight: normal;
+}
+.calendar_tab, .g {
+    border: hidden;
+
+}
+.f {
+    color: #3F7192;
+}
+.g p {
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+}
+.g {
+    padding: 3px;
+}
+.gg p{
+    border-radius: 20px;
+    border: 2px solid #008AE4;
+}
+.gf p {
+    background-color: #008AE4;
+    border-radius: 20px;
+    border: 2px solid #008AE4;
 }

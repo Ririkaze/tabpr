@@ -65,6 +65,10 @@ h2 {
     color: #1C9FF2;
     background: none;
     border: none;
+<<<<<<< HEAD
+    font-weight: bold;
+=======
+>>>>>>> 3f8b29efd5b1271bee08d546191cd7105e3ed655
 }
 table, th, td{
     border-collapse: collapse;
@@ -112,15 +116,35 @@ tr:hover .hov{
 
 
 
+<<<<<<< HEAD
+.tb {
+=======
 
 .calendar {
     display: none;
+>>>>>>> 3f8b29efd5b1271bee08d546191cd7105e3ed655
     background: radial-gradient(94.19% 126.83% at 6.2% 5.81%, #006CB5 0%, #004675 27.08%, #001B2D 85.94%);
     border-radius: 10px;
     padding: 15px 20px;
     position: absolute;
     margin: 20px 50px;
 }
+<<<<<<< HEAD
+.calendar {
+    display: none;
+}
+.btg {
+    background-color: #ffffff00;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+}
+=======
+>>>>>>> 3f8b29efd5b1271bee08d546191cd7105e3ed655
 .top {
     display: flex;
     align-items: center;

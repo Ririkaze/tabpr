@@ -1,0 +1,26 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.main {
+
+}
+h1 {
+    text-align: center;
+}
+.m1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.m1 img {
+    margin-right: 50px;
+}
+.m2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.m2 img {
+    margin: 0 10px;
+}
